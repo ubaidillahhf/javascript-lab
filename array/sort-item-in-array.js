@@ -1,3 +1,5 @@
+const _ = require("lodash")
+
 let array = [2, 1, 2, 5, 6, 7, 8, 9, 9, 10];
 let users = [
     { id: 1, name: "ted" },
@@ -23,3 +25,6 @@ console.log("sort obj 2 props: ", users)
 
 months.sort((a, b) => b.localeCompare(a))
 console.log("sort months: ", months)
+
+let lds = _.orderBy(users, ["id", "name"], ["asc", "asc"])
+console.log("lodash obj: ", lds)
