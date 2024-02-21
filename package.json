@@ -1,0 +1,22 @@
+{
+  "name": "javascript-lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello-world.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ubaidillahhf/javascript-lab.git"
+  },
+  "author": "Ubaidillah Hakim Fadly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ubaidillahhf/javascript-lab/issues"
+  },
+  "homepage": "https://github.com/ubaidillahhf/javascript-lab#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
